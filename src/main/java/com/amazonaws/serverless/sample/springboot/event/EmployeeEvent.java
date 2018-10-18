@@ -92,6 +92,7 @@ public class EmployeeEvent {
         this.team = team;
     }
 
+    @DynamoDBAttribute(attributeName = "age")
     public Integer getAge() {
         return age;
     }
@@ -100,6 +101,7 @@ public class EmployeeEvent {
         this.age = age;
     }
 
+    @DynamoDBAttribute(attributeName = "height")
     public Integer getHeight() {
         return height;
     }
