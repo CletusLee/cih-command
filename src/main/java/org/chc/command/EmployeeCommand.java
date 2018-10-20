@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot.command;
+package org.chc.command;
 
 public class EmployeeCommand {
     private String name;

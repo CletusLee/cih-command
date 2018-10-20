@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot;
+package org.chc;
 
 
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
@@ -6,7 +6,7 @@ import com.amazonaws.serverless.proxy.internal.testutils.Timer;
 import com.amazonaws.serverless.proxy.model.AwsProxyRequest;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
 import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
-import com.amazonaws.serverless.sample.springboot.filter.CognitoIdentityFilter;
+import org.chc.filter.CognitoIdentityFilter;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 

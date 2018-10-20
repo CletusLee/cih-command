@@ -1,7 +1,6 @@
-package com.amazonaws.serverless.sample.springboot;
+package org.chc;
 
-import com.amazonaws.serverless.sample.springboot.controller.EmployeeController;
-import com.amazonaws.serverless.sample.springboot.controller.PetsController;
+import org.chc.controller.EmployeeController;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;

@@ -1,6 +1,6 @@
-package com.amazonaws.serverless.sample.springboot.event;
+package org.chc.event;
 
-import com.amazonaws.serverless.sample.springboot.command.EmployeeCommand;
+import org.chc.command.EmployeeCommand;
 import com.amazonaws.services.dynamodbv2.datamodeling.*;
 
 import java.util.UUID;

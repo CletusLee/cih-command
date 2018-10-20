@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot.util;
+package org.chc.util;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot.event;
+package org.chc.event;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTypeConverter;
 
